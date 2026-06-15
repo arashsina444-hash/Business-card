@@ -1,0 +1,104 @@
+<svg width="2200" height="1400" viewBox="0 0 2200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="studioBg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 220) rotate(54) scale(1550 1260)">
+      <stop stop-color="#33443A"/>
+      <stop offset="0.36" stop-color="#101827"/>
+      <stop offset="0.72" stop-color="#070B14"/>
+      <stop offset="1" stop-color="#02040A"/>
+    </radialGradient>
+    <radialGradient id="spotGold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(598 1100) rotate(-31) scale(760 460)">
+      <stop stop-color="#D9B66F" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#D9B66F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotSage" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1700 245) rotate(142) scale(700 520)">
+      <stop stop-color="#9EB7A5" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#9EB7A5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="front" x1="260" y1="90" x2="1188" y2="778" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172239"/>
+      <stop offset="0.46" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#050812"/>
+    </linearGradient>
+    <linearGradient id="pearl" x1="840" y1="276" x2="1880" y2="1070" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9EE"/>
+      <stop offset="0.48" stop-color="#F4EDE0"/>
+      <stop offset="1" stop-color="#DDE7E1"/>
+    </linearGradient>
+    <linearGradient id="foil" x1="0" y1="0" x2="240" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B88E40"/>
+      <stop offset="0.34" stop-color="#F4D58A"/>
+      <stop offset="0.58" stop-color="#D9B66F"/>
+      <stop offset="1" stop-color="#8A6428"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="135" y2="135" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.15"/>
+      <stop offset="0.56" stop-color="white" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#D9B66F" stop-opacity="0.09"/>
+    </linearGradient>
+    <filter id="cardShadow" x="100" y="120" width="1300" height="1040" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="68" stdDeviation="58" flood-color="#000000" flood-opacity="0.58"/>
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#D9B66F" flood-opacity="0.08"/>
+    </filter>
+    <filter id="backShadow" x="630" y="110" width="1390" height="1100" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="58" stdDeviation="54" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="paperNoise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.94 0 0 0 0 0.90 0 0 0 0 0.82 0 0 0 0.08 0"/>
+    </filter>
+    <filter id="darkPaperNoise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="4" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.35 0 0 0 0 0.42 0 0 0 0 0.50 0 0 0 0.07 0"/>
+    </filter>
+    <filter id="foilGlow" x="-30" y="-30" width="220" height="220" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#D9B66F" flood-opacity="0.32"/>
+    </filter>
+    <style>
+      .fa{font-family:'Vazirmatn','Noto Naskh Arabic','Tahoma',sans-serif;direction:rtl;unicode-bidi:bidi-override}
+      .latin{font-family:'Inter','Avenir Next','Arial',sans-serif;letter-spacing:.3em}
+    </style>
+  </defs>
+
+  <rect width="2200" height="1400" fill="url(#studioBg)"/>
+  <rect width="2200" height="1400" fill="url(#spotGold)"/>
+  <rect width="2200" height="1400" fill="url(#spotSage)"/>
+  <ellipse cx="1112" cy="1168" rx="770" ry="130" fill="#000" opacity="0.34"/>
+  <ellipse cx="1002" cy="1118" rx="645" ry="84" fill="#D9B66F" opacity="0.055"/>
+
+  <!-- pearl back card, behind -->
+  <g filter="url(#backShadow)" transform="translate(790 270) rotate(6)">
+    <path d="M38 0H1012C1033 0 1050 17 1050 38V662C1050 683 1033 700 1012 700H38C17 700 0 683 0 662V38C0 17 17 0 38 0Z" fill="url(#pearl)"/>
+    <path d="M38 0H1012C1033 0 1050 17 1050 38V662C1050 683 1033 700 1012 700H38C17 700 0 683 0 662V38C0 17 17 0 38 0Z" filter="url(#paperNoise)" opacity="0.55"/>
+    <path d="M25 25H1025V675H25V25Z" stroke="#0B1220" stroke-opacity="0.075" stroke-width="2"/>
+    <circle cx="892" cy="120" r="105" stroke="#D9B66F" stroke-opacity="0.35" stroke-width="3"/>
+    <circle cx="150" cy="574" r="132" stroke="#9EB7A5" stroke-opacity="0.44" stroke-width="3"/>
+    <rect x="425" y="142" width="200" height="200" rx="44" fill="#0B1220"/>
+    <text x="525" y="270" text-anchor="middle" class="latin" font-size="76" font-weight="800" fill="url(#foil)">AG</text>
+    <text x="525" y="442" text-anchor="middle" class="fa" font-size="62" font-weight="800" fill="#0B1220">اسرین گلانی</text>
+    <text x="525" y="507" text-anchor="middle" class="fa" font-size="40" font-weight="700" fill="#6F8B77">سایکوتراپیست</text>
+    <text x="525" y="590" text-anchor="middle" class="fa" font-size="29" font-weight="500" fill="#0B1220" opacity="0.58">رزرو جلسه، مشاوره و دریافت محتوای آموزشی</text>
+  </g>
+
+  <!-- dark front card, primary -->
+  <g filter="url(#cardShadow)" transform="translate(260 360) rotate(-5)">
+    <path d="M38 0H1012C1033 0 1050 17 1050 38V662C1050 683 1033 700 1012 700H38C17 700 0 683 0 662V38C0 17 17 0 38 0Z" fill="url(#front)"/>
+    <path d="M38 0H1012C1033 0 1050 17 1050 38V662C1050 683 1033 700 1012 700H38C17 700 0 683 0 662V38C0 17 17 0 38 0Z" filter="url(#darkPaperNoise)" opacity="0.82"/>
+    <path d="M26 26H1024V674H26V26Z" stroke="white" stroke-opacity="0.12" stroke-width="2"/>
+    <circle cx="952" cy="52" r="245" fill="#9EB7A5" opacity="0.13"/>
+    <circle cx="42" cy="690" r="292" fill="#D9B66F" opacity="0.15"/>
+    <path d="M82 79H217C232 79 244 91 244 106V241C244 256 232 268 217 268H82C67 268 55 256 55 241V106C55 91 67 79 82 79Z" fill="url(#glass)" stroke="#D9B66F" stroke-opacity="0.42" stroke-width="2"/>
+    <text x="150" y="200" text-anchor="middle" class="latin" font-size="58" font-weight="800" fill="url(#foil)" filter="url(#foilGlow)">AG</text>
+    <text x="982" y="96" text-anchor="end" class="latin" font-size="24" font-weight="800" fill="#DDE7E1" opacity="0.72">PSYCHOTHERAPY</text>
+    <rect x="755" y="126" width="225" height="3" fill="url(#foil)" opacity="0.92"/>
+    <text x="982" y="402" text-anchor="end" class="fa" font-size="36" font-weight="600" fill="#9EB7A5">فضایی امن برای شنیدن، رشد و بازسازی</text>
+    <text x="982" y="486" text-anchor="end" class="fa" font-size="78" font-weight="900" fill="#F7F3EA">اسرین گلانی</text>
+    <text x="982" y="558" text-anchor="end" class="fa" font-size="46" font-weight="800" fill="url(#foil)">سایکوتراپیست</text>
+    <line x1="58" y1="602" x2="982" y2="602" stroke="white" stroke-opacity="0.105" stroke-width="2"/>
+    <rect x="58" y="628" width="315" height="58" rx="29" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.13"/>
+    <text x="216" y="666" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#DDE7E1">+98 912 000 0000</text>
+    <rect x="668" y="628" width="314" height="58" rx="29" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.13"/>
+    <text x="825" y="666" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#DDE7E1">@your.handle</text>
+  </g>
+
+  <text x="1100" y="1298" text-anchor="middle" class="latin" font-size="25" font-weight="800" fill="#D9B66F" opacity="0.78">PREMIUM PSYCHOTHERAPY BUSINESS CARD MOCKUP</text>
+</svg>
